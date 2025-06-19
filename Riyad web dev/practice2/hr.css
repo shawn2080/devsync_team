@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF2EB;
+}
+header{
+    background-color: #fff;   
+}
+nav{
+    max-width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav img{
+    height: 50px;
+    width: 200px;
+}
+
+nav li{
+     text-decoration: none;
+     display: inline;
+     margin-left: 20px;
+     font-size: 20px;
+     cursor: pointer;
+}
+#home{
+    
+    background: -webkit-linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.course{
+    height: 500px;
+    width: auto;
+    background-color: #E7EFC7;
+}
+.course-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+}
+.course-content span{
+    background: -webkit-linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.course-content h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+.course-content{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+   background-image: linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );
+}
+
+.thm{
+    height: 305px;
+    width: 505;
+    background-color: #fff;
+}
+.thm img{
+    height: 300px;
+    width: 500px;
+    border: 10px solid white;
+    border-radius: 8px;
+}
+
+.card{
+    background-color: #AEC8A4;
+    width: auto;
+    height: 400px;
+}
+.card-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 200px;
+}
+.student{
+    height: 120px;
+    width: 180px;
+    background-color: white;
+    border-radius: 8px;
+    display: block;
+
+    padding:0 auto;
+}
+
+.student h3{
+    color: #3D8D7A;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.student p{
+     text-align: center;
+}
+
+.dream{
+    width: auto;
+    height: 400px;
+    background-color: #FCEFCB;
+}
+
+.dream-content{
+     display: flex;
+    flex-direction: c;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.all h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vido iframe{
+    height: 150px;
+    width: 200px;
+
+}
+
+.vido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 60px;
+
+}
+
+.bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.made{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.made h4{
+    font-size: 50px;
+}

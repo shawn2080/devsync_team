@@ -1,0 +1,25 @@
+*{
+    font-family:"Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff,#EBDCFF);
+}
+
+#banner{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    width: 600px;
+    background-color: white;
+    margin: 100px auto 120px auto;
+    padding: 20px 30px;
+    border-radius: 40px;
+    background-image: url(images/hero-bg.png);
+    display: flex;
+    width: 87.5%;
+    justify-content: space-between;
+    align-items: center;
+}

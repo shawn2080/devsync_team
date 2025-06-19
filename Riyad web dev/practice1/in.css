@@ -1,0 +1,19 @@
+.first_area{
+    height: 70px;
+    width: 100%;
+    background-color: #E3D095;
+}
+
+.info{
+    color: #483AA0;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 500px;
+    margin-top: px;
+}
+
+li{
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 30px;
+}

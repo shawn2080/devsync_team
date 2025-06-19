@@ -1,0 +1,17 @@
+body *{
+    color: chocolate;
+    border:red solid 1px;
+    margin: 1%;
+}
+
+#alal{
+    width: 350px;
+    display: inline;
+    align-items: end;
+    margin-right: 400px;
+}
+
+#dulal{
+    width: 550px;
+    display: inline;
+}
