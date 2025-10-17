@@ -5,6 +5,4 @@ try:
     else:
         print("you are kid")
 except ValueError:
-    print("Invaild number!.Please inter your age.")            
-
-hello 
+    print("Invaild number!.Please inter your age.")
