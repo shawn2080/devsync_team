@@ -1,4 +1,4 @@
-"""
+
 age = 18 
 old = False
 a = None
@@ -9,6 +9,7 @@ print(type(old))
 print(type(a))
 print(type(val))
 print(type(nub))
+
 
 #arithmetic operators
 a = 10 
@@ -36,4 +37,3 @@ num = 10
 #num = num + 10 
 num += 10  #( += , -= , *= , /= )
 print(num)
-"""

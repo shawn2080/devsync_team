@@ -1,10 +1,10 @@
-# age = int(input("Enter your age: "))
-# if age >= 18:
-#     print("You are adult")
-# elif age >= 14:
-#     print("You are teenger")
-# else:
-#     print("You are an kid")
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are adult")
+elif age >= 14:
+    print("You are teenger")
+else:
+    print("You are an kid")
 
 
 # try:

@@ -3,21 +3,22 @@
 # print("welcome our team ", name)
 
 
-
-# number = input("enter your name: ")
-# value=int(number)
-# if number == 'Shawn':
-#     print("welcome shawn you are cyber security engineer in our DevSinc company")
-# elif name == "riyad":
-#     print("welcome riyad you are software engineer in our DevSinc company")
-# elif name == "shifat":
-#     print("welcome shifat you are ux desiner in our DevSinc company")
-# elif name == "riyajul":
-#     print("welcome riyajul you are testing ex in our DevSinc company")
-# elif name == "rifat":
-#     print("welcome rifat you are app developer in our DevSinc company")
-# else:
-#     print("sorry you are Not a member of our DevSinc company")
+try:
+    Name = str(input("enter your name: "))
+    if Name == 'shawn':
+        print("welcome shawn you are cyber security engineer in our DevSinc company")
+    elif Name == "riyad":
+        print("welcome riyad you are software engineer in our DevSinc company")
+    elif Name == "shifat":
+        print("welcome shifat you are ux desiner in our DevSinc company")
+    elif Name == "riyajul":
+        print("welcome riyajul you are testing ex in our DevSinc company")
+    elif Name == "rifat":
+        print("welcome rifat you are app developer in our DevSinc company")
+    else:
+        print("sorry you are Not a member of our DevSinc company")
+except ValueError:
+    print("you are wrong text selected.")
 
 
 

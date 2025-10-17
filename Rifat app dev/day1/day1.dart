@@ -1,60 +1,60 @@
-// void main (){
-//     int rifatbirthdayage=2006;
+void main (){
+      int rifatbirthdayage=2006;
 
-//     int amravaibon=2;
+    int amravaibon=2;
 
-//     int amarcalssastudent=75;
+        int amarcalssastudent=75;
 
-//     double marks=4.99;
+    double marks=4.99;
 
-//     int rooms=10;
+       int rooms=10;
 
-//     int ghontha=6;
+    int ghontha=6;
 
-//     int a=2;
+      int a=2;
 
-//     int b=2;
+    int b=2;
 
-//     int c=a+b;
+       int c=a+b;
 
-//      bool volue =true;
+     bool volue =true;
 
 
-//     print("$rifatbirthdayage, $amravaibon, $amarcalssastudent, $marks, $rooms ,$ghontha, $c,$volue,");
+    print("$rifatbirthdayage, $amravaibon, $amarcalssastudent, $marks, $rooms ,$ghontha, $c,$volue,");
     
-//       //List
+      //List
 
-//     List amarlist = ['one','two','threoue','four'];
+    List amarlist = ['one','two','threoue','four'];
 
-//     print(amarlist);
+      print(amarlist);
 
-//     // Map
+    // Map
 
-//     Map<String,dynamic> amarmap = {
+      Map<String,dynamic> amarmap = {
 
-//    'amarname':' rakibul hasan',
+   'amarname':' rakibul hasan',
 
-//    'age':18,
+     'age':18,
 
-//     };
+    };
 
-//     Set myset = {
+    Set myset = {
     
-//     'one','two','threoue','four'
+      'one','two','threoue','four'
+ 
+    };
 
-//     };
+      print(amarmap);
 
-//    print(amarmap);
+// rune
 
-// // rune
+    final name = 'rakibul';
 
-// final name = 'rakibul';
+     print(name.codeUnits);
 
-// print(name.codeUnits);
+    Runes input = Runes('\u{1F970},\u{1F491},\u{1F49E}');
 
-// Runes input = Runes('\u{1F970},\u{1F491},\u{1F49E}');
+       print(String.fromCharCodes(input));
 
-// print(String.fromCharCodes(input));
-// 
 
-// }
+}

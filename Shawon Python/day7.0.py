@@ -13,7 +13,7 @@ else:
           if pin == correct_pin:
                print("PIN verified.")
                print("\n Option:\n1. Check Balance\n2. Withdraw money")
-               choice = input("choose 1 or 2: ")
+               choice = input("choose: ")
                if choice == "1":
                     print(f"Your current balance is : {balance} Taka.")
                     print(f"Today's used limit : {daily_limit_used}/{DAILY_LIMIT}")

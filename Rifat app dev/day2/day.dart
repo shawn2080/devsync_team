@@ -1,12 +1,50 @@
 void main (){
 
-int a = 10;
+       String colour = 'red ';
 
-int b = 3;
+      var result = colour=='red'? 'colour is red':' colour is not red';
 
-var result = a/b;
+        print(result);
 
-print(result);
+           if(result == 'colour is block'){
+
+         print("connected");
+
+         }
+           else if (result =='colour is red' ) {
+
+           print("connected");
+
+       }
+
+           else {
+
+          print("not color");
+
+          }
+
+         if(result == 'colour is block'){
+
+          print("connected");
+
+          }
+          else if (result =='colour is red' ) { 
+
+         print("connected");
+
+         }
+
+         else {
+
+         print("not color");
+
+        }
+
+
+
+
+
+
 
 
 
