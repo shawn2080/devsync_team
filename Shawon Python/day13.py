@@ -1,5 +1,5 @@
 # try:
-#     age = int(input("Enter your age: "))
+#     age == int(input("Enter your age: "))
 #     if age >= 18:
 #         print("you are an adult.")
 #     elif age >= 14:
@@ -9,8 +9,14 @@
 # except ValueError:
 #     print("sorry you wrong text selected.")
 
-name = str(input("Enter your name: "))
-if name == "shawn":
-    print("wclecome")
-else:
-    print("sorry")
+# name = str(input("Enter your name: "))
+# if name == "shawn":
+#     print("wclecome")
+# else:
+#     print("sorry")
+
+
+
+balnce = 10000
+PIN = "1234"
+
